@@ -19,7 +19,7 @@ const Review = () => {
         //cart
         const savedCart = getDatabaseCart();
         const productKeys = Object.keys(savedCart);
-        fetch('http://localhost:4200/getProductsByKey', {
+        fetch('https://still-taiga-80617.herokuapp.com/getProductsByKey', {
             method: 'POST', 
             headers: {
               'Content-Type': 'application/json'

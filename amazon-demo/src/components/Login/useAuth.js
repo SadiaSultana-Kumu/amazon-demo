@@ -75,7 +75,7 @@ const Auth = () => {
                 const currUser = getUser(usr);
                 setUser(currUser);
             } else {
-              // No user is signed in.
+            
             }
           });
     } , [])
